@@ -1,0 +1,4 @@
+
+  sjobs:
+    - { git_repo_url: , job_name: }
+    - { git_repo_url: , job_name: }
