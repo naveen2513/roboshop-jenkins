@@ -1,4 +1,16 @@
+sjobs:
+    - { git_repo_url: https://github.com/raghudevopsb72/roboshop-terraform.git, job_name: roboshop-terraform, file_name: Jenkinsfile }
+    - { git_repo_url: https://github.com/raghudevopsb72/roboshop-ansible.git, job_name: roboshop-ansible, file_name: Jenkinsfile }
+    - { git_repo_url: https://github.com/raghudevopsb72/aws-ssm-paramter-store.git, job_name: aws-ssm-paramter-store, file_name: Jenkinsfile }
+    - { git_repo_url: https://github.com/raghudevopsb72/aws-ssm-paramter-store.git, job_name: aws-ssm-ps-docker, file_name: Jenkinsfile-ps }
+    - { git_repo_url: https://github.com/raghudevopsb72/roboshop-helm.git, job_name: roboshop-helm, file_name: Jenkinsfile }
+    - { git_repo_url: https://github.com/raghudevopsb72/schema-loader.git, job_name: schema-loader, file_name: Jenkinsfile }
 
-  sjobs:
-    - { git_repo_url: , job_name: }
-    - { git_repo_url: , job_name: }
+mjobs:
+    - { git_repo_url: https://github.com/raghudevopsb72/cart.git, job_name: cart }
+    - { git_repo_url: https://github.com/raghudevopsb72/catalogue.git, job_name: catalogue }
+    - { git_repo_url: https://github.com/raghudevopsb72/user.git, job_name: user }
+    - { git_repo_url: https://github.com/raghudevopsb72/shipping.git, job_name: shipping }
+    - { git_repo_url: https://github.com/raghudevopsb72/payment.git, job_name: payment }
+    - { git_repo_url: https://github.com/raghudevopsb72/dispatch.git, job_name: dispatch }
+    - { git_repo_url: https://github.com/raghudevopsb72/frontend.git, job_name: frontend }
